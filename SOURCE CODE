@@ -11,35 +11,35 @@ print("Let's Start the Game :) ",name_player)
 score = 0
 
 answer = input(' What is A.E.T. stands for? \n ')
-if answer.lower() == 'AFTER EXTRA TIME':
+if answer =='AFTER EXTRA TIME':
     print("Correct")
     score += 1
 else:
     print('Wrong')
  
 answer = input(' What is UEFA stands for? \n ')
-if answer.lower() == 'UNION OF EUROPEAN FOOTBALL ASSOCIATIONS':
+if answer == 'UNION OF EUROPEAN FOOTBALL ASSOCIATIONS':
     print("Correct")
     score += 1
 else:
     print('Wrong')
 
 answer = input(' What is LWB stands for? \n ')
-if answer.lower() == 'LEFT WINGBACK':
+if answer == 'LEFT WINGBACK':
     print("Correct")
     score += 1
 else:
     print('Wrong')
 
 answer = input(' What is FA stands for? \n ')
-if answer.lower() == 'FOOTBALL ASSOCIATION':
+if answer== 'FOOTBALL ASSOCIATION':
     print("Correct")
     score += 1
 else:
     print('Wrong')
 
 answer = input('Which country won the first ever world cup? \n ')
-if answer.lower() == 'URUGUAY':
+if answer== 'URUGUAY':
     print("Correct")
     score += 1
 else:

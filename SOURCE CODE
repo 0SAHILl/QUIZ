@@ -1,5 +1,5 @@
 print(" Welcome To  Quiz Game \n Interesting Game to Play")
-Player = input(" Are sure you want to play the game? \n" )
+Player = input(" Are sure you want to play the game?(yes or no)\n" )
 if Player.lower() != 'yes':
     print("Good Bye")
     quit()  
